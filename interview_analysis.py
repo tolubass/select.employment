@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 
 df = pd.read_csv("http://localhost/proj/attitude.csv")
-#print(df)
+print(df)
 print("print from question number 18 to question number 22:")
 print(df[["q18","q19","q20","q21","q22"]])
 
